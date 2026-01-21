@@ -1,0 +1,18 @@
+{
+	"logo": {
+		"type": "file",
+		"color": {
+			"1": "97",
+			"2": "#b5b5b5",
+			"3": "31"
+		}
+	},
+	"display": {
+		"color": {
+			"keys": "91",
+			"title": "91",
+			"output": "97",
+			"separator": "97"
+		},
+	}
+}
