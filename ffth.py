@@ -31,13 +31,13 @@ hats = {}
 
 print("available hats:")
 
-for path, dirname, filename in os.walk(ffpath / "hats"):
+for path, dirname, filename in os.walk(ffpath / "fastfetch-touhou-hats/hats"):
     for item in filename:
         if item.endswith(".jsonc"):
             #checking if an ascii art is present
             if item.replace(".jsonc", ".ascii") in filename:
                 hatname = item.split(".")[0]
-                hats[hatname] = ffpath / "hats" / hatname
+                hats[hatname] = ffpath / "fastfetch-touhou-hats/hats" / hatname
                 print(hatname)
             else:
                 hatname = item.split(".")[0]
