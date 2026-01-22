@@ -1,5 +1,5 @@
 # fastfetch-touhou-hats
-A simple Python srcipt that applies Touhou characters' hats as fastfetch logo
+A simple Python script that applies Touhou characters' hats as fastfetch logo
 
 ![example](screenshots/example1.png)
 
