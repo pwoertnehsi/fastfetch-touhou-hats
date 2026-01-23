@@ -1,5 +1,5 @@
 # fastfetch-touhou-hats
-A simple Python script that applies Touhou characters' hats as fastfetch logo
+A simple Python script that applies Touhou characters' hats as fastfetch logo.
 
 ![example](screenshots/example1.png)
 
@@ -9,19 +9,17 @@ A simple Python script that applies Touhou characters' hats as fastfetch logo
 git clone https://github.com/pwoertnehsi/fastfetch-touhou-hats
 ```
 
-Additionally, you can add this binary to your PATH. To make the change persistent, add the line below to your ~/.bashrc
+Additionally, you can add ffth binary to your PATH. To make the change persistent, add the line below to your ~/.bashrc
 
 ```
 export PATH=$PATH:/path/to/fastfetch-touhou-hats/ffth
 ```
 
-If you don't want to run the compiled binary, you would need to install json5 via pip.
-
-```
-pip install json5
-```
+If you don't want to run the compiled binary, you would need to `pip install json5`
 
 # Usage
+
+run `/path/to/fastfetch-touhou-hats/ffth/ffth` or just `ffth` if you've added the folder to your PATH.
 
 ![example](screenshots/example2.png)
 
