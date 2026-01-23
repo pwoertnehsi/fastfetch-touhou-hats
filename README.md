@@ -5,26 +5,27 @@ A simple Python script that applies Touhou characters' hats as fastfetch logo
 
 # Installation
 
-
 ```
-cd ~/.config/fastfetch
-
 git clone https://github.com/pwoertnehsi/fastfetch-touhou-hats
 ```
 
-Note: fastfetch doesn't make a directory in ~/.config when you install it, so you might need to create one.
-
-Then, cd into the cloned repo and run bin/ffth. Additionally, you can add this binary to your PATH via running this command so that you can change the hat at any moment.
+Additionally, you can add this binary to your PATH. To make the change persistent, add the line below to your ~/.bashrc
 
 ```
-export PATH=$PATH:~/.config/fastfetch/fastfetch-touhou-hats/bin
+export PATH=$PATH:/path/to/fastfetch-touhou-hats/ffth
+```
+
+If you don't want to run the compiled binary, you would need to install json5 via pip.
+
+```
+pip install json5
 ```
 
 # Usage
 
 ![example](screenshots/example2.png)
 
-Beware that config.jsonc.bak is overriden if it already exists and you've chosen to backup!
+Note that once the backup is made, the script will stop attempting to backup your config unless you manually delete ~/.config/fastfetch/config.jsonc.bak  
 
 # Character List
 
