@@ -1,0 +1,19 @@
+{
+    "logo": {
+        "type": "file",
+        "color": {
+            "1": "#d9ab91",
+            "2": "#806658",
+            "3": "#b38172",
+            "4": "#a37f6a"
+        }
+    },
+    "display": {
+        "color": {
+            "keys": "#cf9f84",
+            "title": "#cf9f84",
+            "output": "97",
+            "separator": "97"
+        },
+    }
+}
