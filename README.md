@@ -33,12 +33,12 @@ These are the characters whose hats are available. Links are the arts that I've 
 - [Saigyouji Yuyuko](https://www.pixiv.net/en/artworks/138944424)
 - [Yakumo Yukari](https://girlcockx.com/y_karas/status/1110231080613740544)
 - [Yakumo Ran](https://girlcockx.com/miyama_sos/status/1997801267197088189)
+- [Futatsuiwa Mamizou](https://www.pixiv.net/en/artworks/76054872)
 
 # TODO
 
 - Kurokoma Saki
 - Moriya Suwako
-- Futatsuiwa Mamizou
 - Hong Meiling
 - Hakurei Reimu
 - Kirisame Marisa
