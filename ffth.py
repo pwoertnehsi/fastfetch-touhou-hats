@@ -8,14 +8,14 @@ from pathlib import Path
 
 #written under heavy guidance of https://github.com/sakievmi-dev
 
-#get the script path
-script_root = os.path.abspath(os.path.dirname(__file__))
-if script_root.endswith("/ffth/_internal"):
-    script_root = script_root.rstrip("/ffth/_internal")
-
-#clean up the unnecessary files
-if Path((script_root + "/screenshots")).exists():
-    shutil.rmtree(script_root + "/screenshots")
+#FFTH_EXEC_METHOD is defined if you want to run it without installation
+if os.getenv("FFTH_EXEC_METHOD") == "True": 
+    #get the script path
+    script_root = os.path.abspath(os.path.dirname(__file__))
+    if script_root.endswith("/ffth/_internal"):
+        script_root = script_root.rstrip("/ffth/_internal")
+else:
+    script_root = "/usr/share/fastfetch-touhou-hats"
 
 ffpath = Path.home() / ".config/fastfetch/"
 
