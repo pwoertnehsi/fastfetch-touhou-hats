@@ -36,7 +36,7 @@ sudo pacman -Syu fastfetch-touhou-hats
 
 # Usage
 
-Run `./ffth.py` inside the repo or just `ffth` if you've installed this tool as a package
+Run `FFTH_EXEC_METHOD=bare ./ffth.py` inside the repo or just `ffth` if you've installed this tool as a package
 
 ![example](https://patchouliknowledge.com/images/git/fastfetch-touhou-hats/example2.png)
 
