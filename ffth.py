@@ -9,7 +9,7 @@ from pathlib import Path
 #written under heavy guidance of https://github.com/sakievmi-dev
 
 #FFTH_EXEC_METHOD is defined if you want to run it without installation
-if os.getenv("FFTH_EXEC_METHOD") == "True": 
+if os.getenv("FFTH_EXEC_METHOD") == "bare": 
     #get the script path
     script_root = os.path.abspath(os.path.dirname(__file__))
     if script_root.endswith("/ffth/_internal"):
