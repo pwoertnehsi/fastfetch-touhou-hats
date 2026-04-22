@@ -1,12 +1,12 @@
 # fastfetch-touhou-hats
 A simple Python script that applies Touhou characters' hats as fastfetch logo.
 
-![example](screenshots/example1.png)
+![example](https://patchouliknowledge.com/images/git/fastfetch-touhou-hats/example1.png)
 
 # Installation
 
 ```
-git clone https://github.com/pwoertnehsi/fastfetch-touhou-hats
+git clone https://git.patchouliknowledge.com/tenshi/fastfetch-touhou-hats
 ```
 
 Additionally, you can add ffth binary to your PATH. To make the change persistent, add the line below to your ~/.bashrc
@@ -21,7 +21,7 @@ If you don't want to run the compiled binary, you would need to `pip install jso
 
 run `/path/to/fastfetch-touhou-hats/ffth/ffth` or just `ffth` if you've added the folder to your PATH.
 
-![example](screenshots/example2.png)
+![example](https://patchouliknowledge.com/images/git/fastfetch-touhou-hats/example2.png)
 
 Note that once the backup is made, the script will stop attempting to backup your config unless you manually delete ~/.config/fastfetch/config.jsonc.bak  
 
