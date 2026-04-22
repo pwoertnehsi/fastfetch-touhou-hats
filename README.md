@@ -5,21 +5,38 @@ A simple Python script that applies Touhou characters' hats as fastfetch logo.
 
 # Installation
 
+### Manual
+
 ```
 git clone https://git.patchouliknowledge.com/tenshi/fastfetch-touhou-hats
 ```
 
-Additionally, you can add ffth binary to your PATH. To make the change persistent, add the line below to your ~/.bashrc
+You would need Python json5 library for this script to work.
+
+### Arch Linux package (makepkg)
 
 ```
-export PATH=$PATH:/path/to/fastfetch-touhou-hats/ffth
+git clone https://git.patchouliknowledge.com/tenshi/fastfetch-touhou-hats-pkg
+cd fastfetch-touhou-hats-pkg
+makepkg -si
 ```
 
-If you don't want to run the compiled binary, you would need to `pip install json5`
+### Arch Linux package (repo)
+
+Add this to your /etc/pacman.conf:
+```
+[patchouli]
+SigLevel = Optional TrustAll                                                     
+Server = https://repo.patchouliknowledge.com/archlinux/$repo/os/$arch
+```
+Then run:
+```
+sudo pacman -Syu fastfetch-touhou-hats
+```
 
 # Usage
 
-run `/path/to/fastfetch-touhou-hats/ffth/ffth` or just `ffth` if you've added the folder to your PATH.
+Run `./ffth.py` inside the repo or just `ffth` if you've installed this tool as a package
 
 ![example](https://patchouliknowledge.com/images/git/fastfetch-touhou-hats/example2.png)
 
